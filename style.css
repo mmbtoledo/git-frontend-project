@@ -1,5 +1,60 @@
 body {
-font-family: Arial, sans-serif;
-background-color: #D3D3D3;
-text-align: center;
+ font-family: Arial, sans-serif;
+ background: linear-gradient(to right, #74ebd5, #9face6);
+ margin: 0;
+ text-align: center;
+}
+header {
+ background-color: #34495e;
+ color: white;
+ padding: 25px;
+}
+main {
+ padding: 20px;
+}
+.card {
+ background-color: white;
+ border-radius: 10px;
+ padding: 20px;
+ margin: 20px auto;
+ width: 80%;
+ max-width: 500px;
+ box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.student-info {
+ background-color: #fef9e7;
+}
+.skills {
+ background-color: #e8f8f5;
+ text-align: left;
+}
+.skills ul {
+ padding-left: 20px;
+}
+button {
+ padding: 10px 20px;
+ background-color: #3498db;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ font-size: 16px;
+ cursor: pointer;
+}
+button:hover {
+ background-color: #2980b9;
+}
+.image-section {
+ background-color: #f0f8ff;
+}
+.bottom-image {
+ width: 100%;
+ max-width: 300px;
+ border-radius: 10px;
+ margin-top: 10px;
+}
+footer {
+ background-color: #2c3e50;
+ color: white;
+ padding: 10px;
+ margin-top: 30px;
 }
